@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avengers navigavtion Bar</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link href="styles.css"rel="stylesheet"type="text/css"/>
+</head>
+<body style="padding-top: 70px;">
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+	<div class="container">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="collapsibleNavbar">
+    <ul class="nav navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Info</a>
+        <div class="dropdown-menu">
+        	<a class="dropdown-item" href="#">superpower </a>
+        	<a class="dropdown-item" href="#">strength </a>
+        	<a class="dropdown-item" href="#">weakness</a>
+      	</div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>   
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li> 
+       <li class="nav-item">
+       	<form class="form-inline" action="#">
+    	<input class="form-control mr-sm-2" type="text" placeholder="Search">
+    	<button class="btn btn-warning" type="submit"><span class="fa fa-search"></span> Search</button>
+  		</form>
+      </li>  
+    </ul>
+  </div>  
+  </div>
+</nav>
+
+<div class="container-fluid" >
+<div class="row">
+	<div class="col-md-12">	<p class="text-justify" >
+    <h1> Bruce Banner (Marvel Cinematic Universe) </h1>
+	<figure>
+	<img src="images/back.jpg" ><br>
+	<figcaption> <b>The hulk </b></figcaption>
+    </figure>
+
+	
+	<br>
+	<p>Character Introduction :</p>
+	<em>Dr. Bruce Banner</em> is a character in the Marvel Cinematic Universe (MCU) film 
+	franchise initially portrayed by Edward Norton and subsequently by Mark Ruffalo—based 
+	on the Marvel Comics character of the same name—known commonly by his alter ego,<em> the Hulk.</em>
+	In the films, Banner is a renowned physicist who subjected himself to a gamma radiation
+	experiment designed to replicate a World War II-era "super soldier" program. The 
+	experiment failed, and now causes Banner to transform into a green, hulking and 
+	gigantic creature, with super-human strength and durability, whenever his heart rate
+	goes above 200 bpm or if he is placed in mortal danger. The character is one of the
+	central protagonists of the MCU,having appeared in eight films of the series and is 
+	depicted as one of the most powerful members of the Avengers.
+		
+	</p>
+</div>
+<div class="col-lg-4"><h1 >Other Avengers :</h1>
+	<ul class="nav disney-bar">
+		<li class="nav-item">
+			<a class="nav-link" href="#">Captain America</a>
+			<a class="nav-link" href="#">Iron man</a>
+			<a class="nav-link" href="#">Thor</a>
+			<a class="nav-link" href="#">Black panther</a>
+			<a class="nav-link" href="#">Black widow</a>
+		</li> 
+	</ul>
+</div>
+	
+<div class="col-lg-4"><h1>Glimpse of Character:</h1>
+    <figure>
+	<img src="images/bruce.png" width="400px" >
+	<figcaption>Dr. Banner</figcaption><br>
+	<img src="images/hulk.jpg " width="400px" >
+	<figcaption>Hulk-The altr ego (Avenger) </figcaption>
+	</figure>
+					
+
+
+
+
+
+</div>
+	<div class="col-lg-4">
+		<h2>Get Connected with our hero's latest updates</h2>
+		<form action="#">
+  		<div class="form-group">
+    		<label for="uname">Username</label>
+    		<input type="uname" class="form-control" placeholder="Enter user name" id="uname">
+  		</div>
+  		<div class="form-group">
+    		<label for="pwd">Password:</label>
+    		<input type="password" class="form-control" placeholder="Enter password" id="pwd">
+  		</div>
+  		<div class="form-group form-check">
+    		<label class="form-check-label">
+      		<input class="form-check-input" type="checkbox"> Remember me
+    		</label><br>
+			<label class="form-check-label">
+      		<input class="form-check-input" type="checkbox"> Notifications on
+    		</label>
+			<p>Only one step close of being an Avengers Informer</p>
+			
+  		</div>
+  			<button type="submit" class="btn btn-warning">Submit</button>
+		</form>
+	</div>	
+</div>
+
+</body>
+</html>
